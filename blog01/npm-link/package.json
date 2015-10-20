@@ -1,0 +1,6 @@
+{
+	"name":"npm-link",
+	"bin":{
+		"ryan":"a.js"
+	}
+}
