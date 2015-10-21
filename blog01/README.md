@@ -44,6 +44,11 @@ npm link redis
 ```
 在其他要用到`redis`的文件夹下执行`npm link redis`,该文件夹
 下的node_modules文件夹夹的向redis所在文件的引用文件
+npm link的源码文件中的注解说的相当明白：
+```javascript
+// link with no args: symlink the folder to the global location
+// link with package arg: symlink the global to the local
+```
 
 ----------------------------------
 我在windows环境下相应开发文件夹下执行`npm link`
@@ -55,9 +60,22 @@ npm link redis
 
 **注：** package.json如果不写name属性，会导致node_moudules文件直接是引用文件夹，所以**name属性是必须的**。
 
-问题就来了为什么生成ryan的文件的？而不是其他的？
+问题就来了**为什么生成ryan的文件的？而不是其他的？**
+这就看npm link 命令都做了什么!
+```javascript
+function link (args, cb) {
+	....
+  if (args.length) return linkInstall(args, cb)
+  linkPkg(npm.prefix, cb)
+}
+function linkInstall (pkgs, cb) {...} 
+function linkPkg (folder, cb_) {...}
+```
+`linkInstall`：引用链接到
+bulid.js
 
 **第二个问题**  命令行输入`ryan`,怎么调用的？
+
 
 
 
