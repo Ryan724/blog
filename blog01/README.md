@@ -53,8 +53,8 @@ npm link的源码文件中的注解说的相当明白：
 ----------------------------------
 我在windows环境下相应开发文件夹下执行`npm link`
 1. npm全局的文件夹`~\AppData\Roaming\npm`目录下多了两个文件：`ryan`,`ryan.cmd`
-> - `ryan`是shell编程的，在linux下调用
-> - `ryan.cmd` dos编程，在windows调用
+> - `ryan`是shell编程的脚本
+> - `ryan.cmd` dos编程的脚本
 
 2. 相应的在全局的node_moudules多一个npm-link的引用文件夹
 
@@ -62,6 +62,7 @@ npm link的源码文件中的注解说的相当明白：
 
 问题就来了**为什么生成ryan的文件的？而不是其他的？**
 这就看npm link 命令都做了什么!
+查看文件`..\nodejs\node_modules\npm\lib\link.js`
 ```javascript
 function link (args, cb) {
 	....
@@ -72,10 +73,12 @@ function linkInstall (pkgs, cb) {...}
 function linkPkg (folder, cb_) {...}
 ```
 `linkInstall`：引用链接到
-bulid.js
+`linkPkg `:
+调用了bulid.js
+`#!/usr/bin/env node`这句注释什么作用？
 
 **第二个问题**  命令行输入`ryan`,怎么调用的？
-
+path
 
 
 
