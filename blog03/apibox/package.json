@@ -1,8 +1,8 @@
 {
   "name": "apibox",
   "version": "0.0.0",
-  "bin":{
-  	"apibox":"./bin/apibox"
+  "bin": {
+    "apibox": "./bin/apibox"
   },
   "description": "api 管理工具",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "optimist": "*",
-    "commander": "1.3.x"
+    "commander": "1.3.x",
+    "dns-notfound-what": "~1.1.0"
   }
 }
