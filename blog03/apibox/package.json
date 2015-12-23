@@ -1,0 +1,15 @@
+{
+  "name": "apibox",
+  "version": "0.0.0",
+  "bin":{
+  	"apibox":"./bin/apibox"
+  },
+  "description": "api 管理工具",
+  "main": "index.js",
+  "author": "zhengpengjie",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "optimist": "*",
+    "commander": "1.3.x"
+  }
+}
