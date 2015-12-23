@@ -3,22 +3,33 @@
 
 ----------------------------------
 [node 调试](http://blog.csdn.net/haidaochen/article/details/8570186)
+
 ##一. 安装node-inspector  
+
 npm install -g node-inspector 
-二. 调试模式运行
+
+##二. 调试模式运行
+
 node --debug-brk app.js 
 默认端口5858 
+
 node --debug-brk[=3000] app.js  
 启动监听node-inspector
+
 node-inspector &  
 修改端口
+
 node-inspector  --web-port=[port]
-三. 进入调试页面
+
+##三. 进入调试页面
+
 http://[ip address]:8080/debug?port=5858
 
 
 修改后自动重启
+
 npm install supervisor -g
+
 supervisor app.js
 ```
 //要监控的文件夹或js文件，默认为'.'
