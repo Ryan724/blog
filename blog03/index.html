@@ -1,0 +1,41 @@
+ <html>
+ <head>
+ </head>
+ <body>
+    <div>
+        <ul class="ul">
+        </ul>
+    </div>
+    <script>
+         function s(x,v){
+           var result= (function stepper(x, v) {
+                     var frameRate =1/60, destX = 0, k =100, b = 20,errorMargin = 0.00001;
+                      // 弹簧拉力 =  弹性系数 * 拉伸距离
+                      var Fspring = -k * (x - destX);
+                      // Fdamper = (cpsv^2)/2  
+                      // 简化  
+                      // 阻力 = 阻力系数* 阻力系数
+                      var Fdamper = -b * v;
+                
+                      //F=ma  m忽略
+                      var a = Fspring + Fdamper;
+                
+                      // if (window.hackOn) frameRate = 1 / 300;
+                
+                      var newV = v + a * frameRate;
+                      var newX = x + newV * frameRate;
+                
+                      if (Math.abs(newV - v) < errorMargin && Math.abs(newX - x) < errorMargin) {
+                        return [destX, 0];
+                      }
+                      return [newX, newV];
+                    })(x,v)
+            document.querySelector(".ul").insertAdjacentHTML("beforeEnd","<li><div style='width:"+ -result[1]+"px;background:blue;margin:10px;height:10px'>"+result[1]+"</div></li>")
+            if(result[0]>0.1){
+              s(result[0],result[1])
+            }
+      }
+      s(300,60)
+    </script>
+ </body>
+ </html>
