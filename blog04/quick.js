@@ -24,7 +24,6 @@ function partition(items, left, right) {
     return i;
 }
 
-
 function quickSort(items, left, right) {
     var index;
     if (items.length > 1) {
@@ -40,6 +39,6 @@ function quickSort(items, left, right) {
     return items;
 }
 
-// first call
 var items= [35,34,76,82,2,43,21,45,5];
-var result = quickSort(items, 0, items.length - 1);
+quickSort(items, 0, items.length - 1);
+console.log(items)
