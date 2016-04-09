@@ -13,5 +13,5 @@ Ryan-blog
 [js 模拟弹簧运动]:https://github.com/Ryan724/Ryan-blog/tree/master/blog03
 [Algorithms]:https://github.com/Ryan724/Ryan-blog/tree/master/blog04
 [JSON字符串转换的三种方式]:https://github.com/Ryan724/Ryan-blog/tree/master/blog05
-[setTimeout与this]:https://github.com/Ryan724/Ryan-blog/tree/master/blog05
+[setTimeout与this]:https://github.com/Ryan724/Ryan-blog/tree/master/blog06
 
