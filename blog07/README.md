@@ -75,9 +75,10 @@ __ 加粗 __(_或者*两边有空格者表示正常字符)
 - & &amp;amp;
 - " &amp;quot;
 
-&nbsp;&nbsp;&nbsp;&nbsp;开头用转移字符空格，然后用&lt;br&gt;<br>标签换行
+&nbsp;&nbsp;&nbsp;&nbsp;开头用转移字符空格，然后用&lt;br&gt;标签换行<br>这事第二行的开始
+
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;开头用转移字符空格，然后用&lt;br&gt;<br>标签换行
+&nbsp;&nbsp;&nbsp;&nbsp;开头用转移字符空格，然后用&lt;br&gt;标签换行<br>这事第二行的开始
 ```
 
 
@@ -87,7 +88,7 @@ __ 加粗 __(_或者*两边有空格者表示正常字符)
 	```javascript
 		var m = undefined;
 	```
-	第一个三个点之后带语言名称
+	第一个三个反单引号之后带语言名称
 ```
 ####列表
 有序列表
