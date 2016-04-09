@@ -6,7 +6,7 @@ Ryan-blog
 - blog04 -- [Algorithms]
 - blog05 -- [JSON字符串转换的三种方式]
 - blog06 -- [setTimeout与this]
-- blog07 -- [github md文档编写规范](../tree/master/blog07)
+- blog07 -- [github md文档编写规范](/tree/master/blog07)
 
 
 [npm line]:https://github.com/Ryan724/Ryan-blog/tree/master/blog01
