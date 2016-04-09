@@ -1,17 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @Ryan724
- Unwatch 1
-  Star 1
-  Fork 0 Ryan724/Ryan-blog
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
- Delete Page Page History New Page
-Editing JSON字符串转换的三种方式
- 
 JSON字符串转换的三种方式
 Write  Preview
 h1 h2 h3      B i        Edit mode:  
@@ -76,9 +62,3 @@ console.log(JSON.parse(jsonstr)); //报错
 //JSON.parse解析使用时间：11 eval解析使用时间：32 function解析使用时间：19
 //JSON.parse解析使用时间：5 eval解析使用时间：28 function解析使用时间：30
 ```
-Edit Message
-
-Write a small message here explaining this change. (Optional)
-Save Page
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
