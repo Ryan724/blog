@@ -48,17 +48,38 @@ __ 加粗 __(_或者*两边有空格者表示正常字符)
 ***加粗斜体*** 或者 ___特别强调___ (示例：粗斜体)
 ```
 
+####表格
+
+| Item      |    Value | Qty  |
+| :-------- | --------:| :--: |
+| Computer  | 1600 USD |  5   |
+| Phone     |   12 USD |  12  |
+| Pipe      |    1 USD | 234  |
+
+```
+| Item      |    Value | Qty  |
+| :-------- | --------:| :--: |
+| Computer  | 1600 USD |  5   |
+| Phone     |   12 USD |  12  |
+| Pipe      |    1 USD | 234  |
+```
+
 ####当行文本输入
-		两个tab,然后就可以写一行了
+		两个tab,然后就可以写一行了,始终是不会换行的
 ####多行文本输入
 
-		da个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊fgipodfigopfdikg op恐怕佛地宫 i哦破佛的功德发票购个大反攻啊
-<br>
+*转移字符*
+- 空格 &amp;nbsp;	
+- < &amp;lt;
+- > &amp;gt;
+- & &amp;amp;
+- " &amp;quot;
 
-&nbsp;&nbsp;&nbsp;&nbsp;da个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊个大反攻啊fgipodfigopfdikg op恐怕佛地宫 i哦破佛的功德发票购个大反攻啊
-		
-fgipodfigopfdikg op恐怕
-佛地宫 i哦破佛的功德发票购个大反攻啊
+&nbsp;&nbsp;&nbsp;&nbsp;开头用转移字符空格，然后用&lt;br&gt;<br>标签换行
+```
+&nbsp;&nbsp;&nbsp;&nbsp;开头用转移字符空格，然后用&lt;br&gt;<br>标签换行
+```
+
 
 ####代码输入
 ```
@@ -132,21 +153,6 @@ fgipodfigopfdikg op恐怕
   ![ryan_ico](https://avatars2.githubusercontent.com/u/5319124?v=3&s=40)
 ```
 
-####表格
-
-| Item      |    Value | Qty  |
-| :-------- | --------:| :--: |
-| Computer  | 1600 USD |  5   |
-| Phone     |   12 USD |  12  |
-| Pipe      |    1 USD | 234  |
-
-```
-| Item      |    Value | Qty  |
-| :-------- | --------:| :--: |
-| Computer  | 1600 USD |  5   |
-| Phone     |   12 USD |  12  |
-| Pipe      |    1 USD | 234  |
-```
 
 ### 复选框
 
