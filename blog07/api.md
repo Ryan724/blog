@@ -77,7 +77,7 @@ response:{
 
 |:--------:|:--------:|:--------:|
 
-|String    |         d|        dashboard的id| 
+|String    |          d|        dashboard的id| 
 
 |String    |          r|        component的id|
 
