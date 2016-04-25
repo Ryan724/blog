@@ -73,11 +73,22 @@ response:{
 ## 常用字段说明 ： 
 
 
-|类型      |      名称|     描述|   
+| 类型      |      名称|     描述 |   
 
-|:--------:|:--------:|:--------:|
+| :--------: | :--------: | :--------: |
 
-|String    |          d|        dashboard的id| 
+| String    |          d |        dashboard的id | 
 
-|String    |          r|        component的id|
+| String    |          r |        component的id |
+
+
+
+
+2233232323
+
+| Item      |    Value | Qty  |
+| :-------- | --------:| :--: |
+| Computer  | 1600 USD |  5   |
+| Phone     |   12 USD |  12  |
+| Pipe      |    1 USD | 234  |
 
