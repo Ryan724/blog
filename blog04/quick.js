@@ -38,35 +38,7 @@ function quickSort(items, left, right) {
     }
     return items;
 }
-function swap(arr,a,b){
-    var temp = arr[a];
-    arr[a]=arr[b];
-    arr[b]=temp;
-}
 
-function quickSort2(arr,start,end){
-    	if(start==end)return;
-    	var pivot = arr[start];
-    	var maxIndex,endIndex,i = start;
-    	while(i<arr.length) {
-            if (pivot < arr[i]) {
-                maxIndex = i;
-                for (var j = i; j < arr.length; j++) {
-                    if (pivot > arr[j]) {
-                        endIndex = maxIndex;
-                        swap(arr, maxIndex, j);
-                        break;
-                    }
-                }
-            }
-            i++;
-        }
-    if(!maxIndex) endIndex = arr.length-1;
-    swap(arr,start,endIndex);
-    if(!endIndex) return;
-    quickSort2(arr,start,endIndex-1)
-    quickSort2(arr,endIndex+1,end)
-}
-var items= [3,2,1];
-quickSort2(items, 0, items.length - 1);
+var items= [,6,4,8,2,8,3,2,1];
+quickSort(items, 0, items.length - 1);
 console.log(items)
