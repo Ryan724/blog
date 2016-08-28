@@ -39,6 +39,6 @@ function quickSort(items, left, right) {
     return items;
 }
 
-var items= [,6,4,8,2,8,3,2,1];
+var items= [21,6,4,8,2,8,3,2,1];
 quickSort(items, 0, items.length - 1);
 console.log(items)
