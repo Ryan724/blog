@@ -1,0 +1,20 @@
+{
+  "name": "jquery",
+  "authors": {
+    "name": "jQuery Foundation and other contributors",
+    "url": "https://github.com/jquery/jquery/blob/master/AUTHORS.txt"
+  },
+  "description": "JavaScript library for DOM operations",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "_release": "d6c5acf103",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d6c5acf103a71c26a36b3ca73b0b17c0820b594e"
+  },
+  "_source": "http://iZ25zre2mheZ/js/jquery.git",
+  "_target": "*",
+  "_originalSource": "jquery"
+}

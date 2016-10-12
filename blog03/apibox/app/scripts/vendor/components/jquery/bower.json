@@ -1,0 +1,12 @@
+{
+  "name": "jquery",
+  "version": "1.10.2",
+  "authors": {
+    "name": "jQuery Foundation and other contributors",
+    "url": "https://github.com/jquery/jquery/blob/master/AUTHORS.txt"
+  },
+  "description": "JavaScript library for DOM operations",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "requirejs",
+  "description": "RequireJS is a JavaScript file and module loader.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "_release": "efe42e3c4d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "efe42e3c4db6bb2046af5154dd272a5e83198661"
+  },
+  "_source": "http://iZ25zre2mheZ/js/requirejs.git",
+  "_target": "*",
+  "_originalSource": "requirejs"
+}

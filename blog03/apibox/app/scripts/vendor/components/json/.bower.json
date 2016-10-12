@@ -1,0 +1,16 @@
+{
+  "name": "json",
+  "description": "JSON in JavaScript",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "_release": "c003f91a34",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c003f91a3470ca4c5b772a6ad200df1ec68497d9"
+  },
+  "_source": "http://iZ25zre2mheZ/js/json.git",
+  "_target": "*",
+  "_originalSource": "json"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "backbone",
+  "description": "Give your JS App some Backbone with Models, Views, Collections, and Events.",
+  "url": "http://backbonejs.org",
+  "keywords": [
+    "model",
+    "view",
+    "controller",
+    "router",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Jeremy Ashkenas <jeremy@documentcloud.org>",
+  "dependencies": {},
+  "devDependencies": {
+    "phantomjs": "1.9.0-1",
+    "docco": "0.6.1",
+    "coffee-script": "1.6.1"
+  },
+  "scripts": {
+    "test": "phantomjs test/vendor/runner.js test/index.html?noglobals=true && coffee test/model.coffee",
+    "build": "uglifyjs backbone.js --mangle --source-map backbone-min.map -o backbone-min.js",
+    "doc": "docco backbone.js && docco examples/todos/todos.js examples/backbone.localstorage.js",
+    "lint": "jsl -nofilelisting -nologo -conf docs/jsl.conf -process backbone.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jashkenas/backbone.git"
+  },
+  "_release": "0d1c88408f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0d1c88408fa6c189c0e18f91a3be4d0fd22451ec"
+  },
+  "_source": "http://iZ25zre2mheZ/js/backbone.git",
+  "_target": "*",
+  "_originalSource": "backbone"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "marionette",
+  "description": "Make your Backbone.js apps dance with a composite application architecture!",
+  "url": "http://marionettejs.org",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "_release": "34c05601b8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "34c05601b8e0f1ed8aa59bee1dfbfafd7c3c956e"
+  },
+  "_source": "http://iZ25zre2mheZ/js/marionette.git",
+  "_target": "*",
+  "_originalSource": "marionette"
+}

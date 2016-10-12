@@ -1,0 +1,16 @@
+{
+  "name": "lodash",
+  "description": "Lodash - Underscore compatible version",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "_release": "98a477e16a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "98a477e16afa299cc4df7e409b5c9705c82b0da7"
+  },
+  "_source": "http://iZ25zre2mheZ/js/loadash.git",
+  "_target": "*",
+  "_originalSource": "lodash"
+}

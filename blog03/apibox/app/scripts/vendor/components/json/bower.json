@@ -1,0 +1,8 @@
+{
+  "name": "json",
+  "version": "3.5.26",
+  "description": "JSON in JavaScript",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}

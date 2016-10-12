@@ -1,0 +1,8 @@
+{
+  "name": "requirejs",
+  "version": "2.1.9",
+  "description": "RequireJS is a JavaScript file and module loader.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}

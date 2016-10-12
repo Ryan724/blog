@@ -1,0 +1,10 @@
+[ignore]
+.*/node_modules/fbjs/lib/PromiseMap.js
+.*/node_modules/fbjs/lib/fetchWithRetries.js
+
+[include]
+
+[libs]
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
