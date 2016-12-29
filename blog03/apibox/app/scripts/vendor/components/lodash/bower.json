@@ -1,8 +1,0 @@
-{
-  "name": "lodash",
-  "version": "2.2.1",
-  "description": "Lodash - Underscore compatible version",
-  "main": "index.js",
-  "license": "MIT",
-  "private": true
-}
